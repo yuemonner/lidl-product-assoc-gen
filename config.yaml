@@ -1,0 +1,28 @@
+source: https://www.lidl.pl/c/zawsze-duzo-swiezo/a10009508
+source_basis:
+  specifier: class_
+  value: ACampaignGrid__item
+identifiers:
+  - specifier: class_
+    value: product-grid-box__title
+    label: Title
+  - specifier: name
+    value: img
+    label: Image
+    attrib: src
+  - specifier: class_
+    value: m-price__rrp
+    label: PriceOld
+  - specifier: class_
+    value: m-price__price
+    label: PriceNew
+  - specifier: class_
+    value: m-price__base
+    label: Quantity
+  - specifier: name
+    value: a
+    label: Link
+    attrib: href
+recommendation_source: https://recommendations.lidl-shop.com/r/api/recommendations/PL/pl/web/products/
+product_source: https://www.lidl.pl/p/p
+base_img_dir: ./images
